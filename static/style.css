@@ -17,3 +17,16 @@ form.input-todo{
 .btn-remove-todo{
     width:100px
 }
+
+
+.main-nav{
+    width:100%
+}
+
+.btn-add{
+    width:6rem;
+}
+
+.form-add{
+    max-width: 600px;
+}
