@@ -3,13 +3,6 @@
     height: 60px;
 }
 
-form.input-todo{
-    min-width: 350px;
-    max-width: 800px;
-    flex-grow: 1;
-    flex-flow: nowrap !important;
-}
-
 .input-todo input{
     flex-grow: 1;
 }
