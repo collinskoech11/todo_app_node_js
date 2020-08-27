@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<%- include('./partial/nav-index.ejs') %>
+      <div class="container">
+            <div class="list-group py-3" id="list-todo">
+                <% todos.forEach(function(todo){ %>
+                  <div class="list-group-sub d-flex">
+                      <a href="#" class="list-group-item list-group-item-action" id="<%= todo._id %>"><%= todo.item %></a>
+                      <div class="input-group-append">
+                          <button class="btn btn-outline-primary btn-remove-todo" type="button" id="button-addon2">Remove</button>
+                      </div>
+                  </div>
+                <% }) %>
+            </div>
+      </div>
+<%- include('./partial/foot-index.ejs') %>
+</html>
